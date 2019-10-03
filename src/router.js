@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+import csgo from './views/csgo.vue'
+import streamers from './views/streamers.vue'
 
 Vue.use(Router)
 
@@ -10,16 +11,21 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'csgo',
+      component: csgo
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/dota',
+      name: 'dota',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
+      component: () => import(/* webpackChunkName: "about" */ './views/dota.vue')
+    },
+    {
+      path: '/streamers',
+      name: 'streamers',
+      component: streamers
+    },
   ]
 })
