@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import csgo from './views/csgo.vue'
 import streamers from './views/streamers.vue'
+import organizers from './views/organizers.vue'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
       path: '/streamers',
       name: 'streamers',
       component: streamers
+    },
+    {
+      path: '/organizers',
+      name: 'organizers',
+      component: organizers
     },
   ]
 })
