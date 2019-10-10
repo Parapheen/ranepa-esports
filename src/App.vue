@@ -1,7 +1,11 @@
 <template>
   <div id="app">
+    <a href="https://vk.com/cyberiumacademy">
       <img src="./assets/cyberiumLogo.jpg" alt="cyberium" height="90" width="160">
+    </a>
+    <a href="https://vk.com/senatorsport">
       <img src="./assets/senatorLogo.jpg" alt="senator" height="90" width="100">
+    </a>
     <div id="nav">
       <router-link onclick="ym(55703485, 'hit', 'csgo', {referer: 'index.html?page=main'});" to="/">CS:GO</router-link> |
       <router-link onclick="ym(55703485, 'hit', 'dota', {referer: 'index.html?page=main'});" to="/dota">Dota 2</router-link> |
