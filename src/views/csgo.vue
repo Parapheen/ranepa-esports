@@ -5,7 +5,7 @@
       <p>Победитель представляет РАНХиГС на всех будущих турнирах.</p>
       <p>А подготовка к соревнованиям будет ввестись с тренерами
     из академии <a
-                onclick="amplitude.getInstance().logEvent('cyberiumCSGOclick');"
+                onclick="ym(55703485, 'reachGoal', 'csgoCyberiumClick'); return true;"
                 href="https://vk.com/cyberiumacademy">Cyberium</a></p>
     </div>
     <div class="form">
