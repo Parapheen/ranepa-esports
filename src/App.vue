@@ -4,8 +4,8 @@
       <img src="./assets/senatorLogo.jpg" alt="senator" height="90" width="100">
     <div id="nav">
       <router-link onclick="ym(55703485, 'hit', 'csgo', {referer: 'index.html?page=main'});" to="/">CS:GO</router-link> |
-      <router-link onclick="ym(55703485, 'hit', 'dota', {referer: 'index.html?page=main'});">Dota 2</router-link> |
-      <router-link onclick="ym(55703485, 'hit', 'streamers', {referer: 'index.html?page=main'});">Streamers</router-link> |
+      <router-link onclick="ym(55703485, 'hit', 'dota', {referer: 'index.html?page=main'});" to="/dota">Dota 2</router-link> |
+      <router-link onclick="ym(55703485, 'hit', 'streamers', {referer: 'index.html?page=main'});" to="/streamers">Streamers</router-link> |
       <router-link onclick="ym(55703485, 'hit', 'organizers', {referer: 'index.html?page=main'});" to="/organizers">Organizers</router-link>
     </div>
     <router-view/>
