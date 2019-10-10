@@ -1,9 +1,13 @@
 <template>
   <div id="app">
-    <a href="https://vk.com/cyberiumacademy">
+    <a
+            onclick="ym(55703485, 'reachGoal', 'logoCyberiumClick'); return true;"
+            href="https://vk.com/cyberiumacademy">
       <img src="./assets/cyberiumLogo.jpg" alt="cyberium" height="90" width="160">
     </a>
-    <a href="https://vk.com/senatorsport">
+    <a
+            onclick="ym(55703485, 'reachGoal', 'logoSenatorClick'); return true;"
+            href="https://vk.com/senatorsport">
       <img src="./assets/senatorLogo.jpg" alt="senator" height="90" width="100">
     </a>
     <div id="nav">
