@@ -9,7 +9,7 @@
                 href="https://vk.com/cyberiumacademy">Cyberium</a></p>
     </div>
     <div class="form">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCgvorStEOJRJq5xQfQXJIRR5e3amaR39LDdf_ILzsy8ElnA/viewform?embedded=true" width="640" height="1686" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+      <iframe width="853" height="480" src="https://widget.toornament.com/tournaments/2959102938503405568/stages/2959180807336779776/?_locale=en_US" allowfullscreen frameborder="0"></iframe>
     </div>
   </div>
 </template>
